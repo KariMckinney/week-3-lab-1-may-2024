@@ -2,42 +2,40 @@
   <head>
     <title>Learning CSS</title>
     <style>
-      h1 {
-        color:#503047;
-      }
+  table, th, td {
+  border: 1px solid black;
+  }
+  header {
+    color: #82C0CC;
+  }
+  main {
+    color: #82C0CC;
+  }
 
-      p {
-        margin: 32px;
-      }
+  ul {
+    color: #82C0CC;
+  }
 
-      button {
-      }
+nav{
+  color: #82C0CC;
+}
 
-      /* TODO: add styles for header  */
-      
-      /* TODO: add styles for footer  */
-
-      .paragraph-1 {
-        background-color:#D0E3C4 ;
-      }
-
-      .paragraph-2 {
-        background-color:#D0E3C4 ;
-      }
-
-      .paragraph-3 {
-        background-color:#D0E3C4 ;
-      }
+footer{
+  color:#82C0CC;
+}
     </style>
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
-      </h1>
+
+      <h1>I like cats!</h1>
+
     </header>
+    
     <main>
-      <p class="paragraph-1" style="color: #503047;">
+      <p>
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -45,7 +43,7 @@
         aliquam etiam.    
       </p>
     
-      <p class="paragraph-2"style="color: #503047;">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -57,7 +55,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p class="paragraph-3"style="color: #503047;">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -71,22 +69,27 @@
     
       <table>
         <tr>
-          <th style="background-color: #ADC698;">item</th>
-          <th style="background-color: #D0E3C4;">price</th>
+          <th>item</th>
+          <th>price</th>
         </tr>
         <tr>
-          <td style="background-color: #ADC698;">hotwheels car</td>
-          <td style="background-color: #D0E3C4;">$4.99</td>
+          <td>hotwheels car</td>
+          <td>$4.99</td>
         </tr>
         <tr>
-          <td style="background-color: #ADC698;">
-            Cabbage patch doll
-         </td>
-          <td style="background-color: #D0E3C4;">$1.99</td>
+          <td>Cabbage patch doll</td>
+          <td>$1.99</td>
         </tr>
       </table>
-    
-      <button style="background-color: #ADC698;">Buy Now!</button>
+
+<ul class="a">
+  <li>Tabby</li>
+  <li>Shorthair</li>
+  <li>bengal</li>
+  <li>Mainecoon</li>
+</ul>
+
+      <button>Buy Now!</button>
     </main>
   
     <nav>
